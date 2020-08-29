@@ -59,10 +59,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1r-Ri-2Ct">
+                                <rect key="frame" x="169.5" y="475.5" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First appearance:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufd-hs-jLd">
+                                <rect key="frame" x="140.5" y="531.5" width="133" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="7Hj-Un-3xf" firstAttribute="top" secondItem="43m-WH-1eM" secondAttribute="top" constant="50" id="33J-4g-LVD"/>
+                            <constraint firstItem="ufd-hs-jLd" firstAttribute="centerX" secondItem="suM-3D-vAs" secondAttribute="centerX" id="7Wb-Ro-Cea"/>
+                            <constraint firstItem="m1r-Ri-2Ct" firstAttribute="top" secondItem="Af2-U2-9D8" secondAttribute="bottom" constant="35" id="LUs-OB-WUU"/>
+                            <constraint firstItem="m1r-Ri-2Ct" firstAttribute="centerX" secondItem="suM-3D-vAs" secondAttribute="centerX" id="OTS-nr-Diu"/>
+                            <constraint firstItem="ufd-hs-jLd" firstAttribute="top" secondItem="m1r-Ri-2Ct" secondAttribute="bottom" constant="35" id="Uzt-nk-jxB"/>
                             <constraint firstItem="Af2-U2-9D8" firstAttribute="top" secondItem="7Hj-Un-3xf" secondAttribute="bottom" constant="150" id="YCh-VL-CB7"/>
                             <constraint firstItem="Af2-U2-9D8" firstAttribute="centerX" secondItem="suM-3D-vAs" secondAttribute="centerX" id="gt4-iL-AaW"/>
                             <constraint firstItem="7Hj-Un-3xf" firstAttribute="centerX" secondItem="suM-3D-vAs" secondAttribute="centerX" id="vJc-gZ-Wuf"/>
@@ -71,8 +87,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="D7r-XG-CYy"/>
                     <connections>
+                        <outlet property="categoryLabel" destination="m1r-Ri-2Ct" id="zng-3J-hAY"/>
                         <outlet property="definitionLabel" destination="Af2-U2-9D8" id="qFx-FL-HLU"/>
                         <outlet property="emojiLabel" destination="7Hj-Un-3xf" id="NKP-6d-ysg"/>
+                        <outlet property="firstAppearanceLabel" destination="ufd-hs-jLd" id="QUw-vu-7O9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLP-gM-BZI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

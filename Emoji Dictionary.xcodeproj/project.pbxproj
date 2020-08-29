@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A313156424FB06B00091C7C9 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A313156324FB06B00091C7C9 /* Emoji.swift */; };
 		A3AFADC224F986AF00B6C5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFADC124F986AF00B6C5A1 /* AppDelegate.swift */; };
 		A3AFADC424F986AF00B6C5A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFADC324F986AF00B6C5A1 /* SceneDelegate.swift */; };
 		A3AFADC624F986AF00B6C5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AFADC524F986AF00B6C5A1 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A313156324FB06B00091C7C9 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		A3AFADBE24F986AF00B6C5A1 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AFADC124F986AF00B6C5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3AFADC324F986AF00B6C5A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				A3AFADC324F986AF00B6C5A1 /* SceneDelegate.swift */,
 				A3AFADC524F986AF00B6C5A1 /* ViewController.swift */,
 				A3AFADD724F9A04F00B6C5A1 /* DefinitionViewController.swift */,
+				A313156324FB06B00091C7C9 /* Emoji.swift */,
 				A3AFADC724F986AF00B6C5A1 /* Main.storyboard */,
 				A3AFADCA24F986B000B6C5A1 /* Assets.xcassets */,
 				A3AFADCC24F986B000B6C5A1 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A313156424FB06B00091C7C9 /* Emoji.swift in Sources */,
 				A3AFADC624F986AF00B6C5A1 /* ViewController.swift in Sources */,
 				A3AFADD824F9A04F00B6C5A1 /* DefinitionViewController.swift in Sources */,
 				A3AFADC224F986AF00B6C5A1 /* AppDelegate.swift in Sources */,
